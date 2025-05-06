@@ -1,0 +1,17 @@
+.row-grid {
+  display: flex;
+}
+
+.cell-grid {
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  text-align: center;
+  line-height: 30px;
+  background-color: #999;
+  cursor: pointer;
+}
+
+.board-cell.revealed {
+  background-color: #ccc;
+}
